@@ -8,3 +8,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+main > div {
+  max-width: 980px;
+  margin: auto;
+}

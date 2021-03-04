@@ -9,7 +9,7 @@ const CandidatesData = () => {
 
   console.log('candidate list values ', candidateList);
   return (
-    <div className="bd-example">
+    <div className="dashboard">
       <table className="table table-hover">
         <caption className="caption">List of candidates</caption>
         <thead className="table-header">

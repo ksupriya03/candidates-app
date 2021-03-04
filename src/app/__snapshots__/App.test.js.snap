@@ -4,7 +4,7 @@ exports[`<App /> Snapshot test 1`] = `
 <div>
   <main>
     <div
-      class="bd-example"
+      class="dashboard"
     >
       <table
         class="table table-hover"
