@@ -18,7 +18,7 @@ jobs:
           node-version: 12
       - run: yarn install
       - run: yarn lint
-      - run: yarn test
+      - run: yarn test:ci
       - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
         with:
