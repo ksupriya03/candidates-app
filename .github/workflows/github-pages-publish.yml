@@ -1,0 +1,26 @@
+# This workflow will run tests using node and then publish to GitHub Pages when pushed to release/* or main branch
+
+name: 🛠 Github Pages Deploy 📦
+on:
+  push:
+    branches:
+      - main
+      - release/*
+
+jobs:
+  build:
+    name: 📦 Build and deploy 🎉
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: yarn install
+      - run: yarn lint
+      - run: yarn test
+      - run: yarn build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
