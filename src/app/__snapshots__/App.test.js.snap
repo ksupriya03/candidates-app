@@ -62,7 +62,7 @@ exports[`<App /> Snapshot test 1`] = `
             >
               <a
                 data-testid="John"
-                href="/details/dummy-id"
+                href="#/details/dummy-id"
               >
                 John
               </a>
@@ -91,7 +91,7 @@ exports[`<App /> Snapshot test 1`] = `
             >
               <a
                 data-testid="mary"
-                href="/details/dummy-id"
+                href="#/details/dummy-id"
               >
                 mary
               </a>
@@ -120,7 +120,7 @@ exports[`<App /> Snapshot test 1`] = `
             >
               <a
                 data-testid="Jane"
-                href="/details/dummy-id"
+                href="#/details/dummy-id"
               >
                 Jane
               </a>
@@ -149,7 +149,7 @@ exports[`<App /> Snapshot test 1`] = `
             >
               <a
                 data-testid="Dave"
-                href="/details/dummy-id"
+                href="#/details/dummy-id"
               >
                 Dave
               </a>

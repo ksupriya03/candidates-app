@@ -7,7 +7,7 @@ import { formatAmount } from '../../util/formatter';
 import { getCandidateById } from '../../selectors';
 import { updateCandidateData } from '../../actions/candidate';
 
-import './candidate-details-page.scss';
+import './styles.scss';
 
 const CandidateDetailsFormik = () => {
   const history = useHistory();

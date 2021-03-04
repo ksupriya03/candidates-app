@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 
 import { selectCandidates } from '../../selectors';
 
-import './candidate.scss';
+import './styles.scss';
 
 const CandidatesData = () => {
   const candidateList = useSelector(selectCandidates);
@@ -34,7 +34,7 @@ const CandidatesData = () => {
               <tr key={candidate.id} className="table-header-row">
                 <td className="table-heading-space">{idx + 1}</td>
                 <td className="table-heading-space">
-                  <a href={`/details/${candidate.id}`} data-testid={candidate.name}>
+                  <a href={`#/details/${candidate.id}`} data-testid={candidate.name}>
                     {candidate.name}
                   </a>
                 </td>
