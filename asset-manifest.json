@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/candidates-app/static/css/main.f5d86a8a.chunk.css",
-    "main.js": "/candidates-app/static/js/main.1c99e501.chunk.js",
-    "main.js.map": "/candidates-app/static/js/main.1c99e501.chunk.js.map",
+    "main.js": "/candidates-app/static/js/main.b2217b44.chunk.js",
+    "main.js.map": "/candidates-app/static/js/main.b2217b44.chunk.js.map",
     "runtime-main.js": "/candidates-app/static/js/runtime-main.117408bb.js",
     "runtime-main.js.map": "/candidates-app/static/js/runtime-main.117408bb.js.map",
-    "static/js/2.dbe87933.chunk.js": "/candidates-app/static/js/2.dbe87933.chunk.js",
-    "static/js/2.dbe87933.chunk.js.map": "/candidates-app/static/js/2.dbe87933.chunk.js.map",
+    "static/js/2.4e2fb406.chunk.js": "/candidates-app/static/js/2.4e2fb406.chunk.js",
+    "static/js/2.4e2fb406.chunk.js.map": "/candidates-app/static/js/2.4e2fb406.chunk.js.map",
     "static/js/3.81492fbd.chunk.js": "/candidates-app/static/js/3.81492fbd.chunk.js",
     "static/js/3.81492fbd.chunk.js.map": "/candidates-app/static/js/3.81492fbd.chunk.js.map",
     "index.html": "/candidates-app/index.html",
     "static/css/main.f5d86a8a.chunk.css.map": "/candidates-app/static/css/main.f5d86a8a.chunk.css.map",
-    "static/js/2.dbe87933.chunk.js.LICENSE.txt": "/candidates-app/static/js/2.dbe87933.chunk.js.LICENSE.txt"
+    "static/js/2.4e2fb406.chunk.js.LICENSE.txt": "/candidates-app/static/js/2.4e2fb406.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.117408bb.js",
-    "static/js/2.dbe87933.chunk.js",
+    "static/js/2.4e2fb406.chunk.js",
     "static/css/main.f5d86a8a.chunk.css",
-    "static/js/main.1c99e501.chunk.js"
+    "static/js/main.b2217b44.chunk.js"
   ]
 }
