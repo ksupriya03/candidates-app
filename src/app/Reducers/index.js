@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 // redux call
-import candidateHandlerReducer from './candidateData';
+import candidates from './candidatesData';
 
 const RootReducer = combineReducers({
-  candidate: candidateHandlerReducer,
+  candidates,
 });
 
 export default RootReducer;

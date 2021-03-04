@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { STATES } from '../../Util/constants';
+import { STATES } from '../../util/constants';
 
 const CandidateDetails = () => {
   const [state, setState] = useState({
