@@ -1,0 +1,44 @@
+.bd-example {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -15px 0;
+  border: solid #f7f7f9;
+  border-width: 0.2rem 0 0;
+
+  @media screen and (min-width: 576px) {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 0.2rem;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    .caption {
+      padding: 10px;
+      font-weight: bold;
+    }
+    .table-header {
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+      &.table-heading {
+        background-color: #d6d8db;
+      }
+      .table-header-row {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+      }
+      .table-heading-space {
+        padding: 0.75rem;
+        vertical-align: bottom;
+        border: 2px solid #dee2e6;
+        text-align: inherit;
+      }
+    }
+  }
+}
